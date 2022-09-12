@@ -56,6 +56,17 @@ html {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.updates {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 .trending {
     grid-column: 2;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
