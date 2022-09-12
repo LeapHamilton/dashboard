@@ -45,4 +45,17 @@ html {
     background-color: #E0E0E0;
     grid-row: 2 / 3;
     grid-column: 2 /4;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.trending {
+    grid-column: 2;
 }
