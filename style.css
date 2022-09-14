@@ -28,6 +28,33 @@ html {
     grid-template-rows: 1fr 1fr;
 }
 
+.btn-group {
+    display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+}
+
+button {
+    border: none;
+    margin: 0;
+    background-color: #007FFF;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    width: 27%;
+    padding: 0.5em 1em;
+    border-radius: 30%;
+    transition: all 500ms ease;
+}
+
+button:hover{
+    color: #007FFF;
+    border:  #007FFF solid 1px;
+    background:#fff;
+  }
+
 #searchbar {
     border: 1px solid grey;
     border-radius: 10px;
@@ -42,12 +69,17 @@ html {
 
 
 .content {
-    background-color: #E0E0E0;
+    background-color: grey;
     grid-row: 2 / 3;
     grid-column: 2 /4;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.projects {
+
+    display: grid;
 }
 
 .cards {
@@ -56,13 +88,34 @@ html {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
-.updates {
+.announcements {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
 }
+
+.updates {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+height: 80%;
+width: 80%;
+background-color: white;
+text-align: center;
+}
+
+.updates > li {
+ 
+    border-bottom: 2px solid black;
+    border-bottom-with: 50%;
+    list-style-type: none;
+}
+
 .trending {
     grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
 }
 
 .top {
