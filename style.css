@@ -58,6 +58,11 @@ html {
 #infopic {
     max-width: 6em;
 }
+
+.bell {
+    width:2em;
+    margin-right: .5em;
+}
 .userinfo {
     grid-column-start:2; 
     padding-left: 3em;
