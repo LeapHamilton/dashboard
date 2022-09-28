@@ -179,6 +179,19 @@ button:hover{
     border-bottom-left-radius: 10px;
 }
 
+.project-description {
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+.clickable-group {
+    grid-column:3;
+    grid-row: 3;
+}
+.clickable {
+    width:1.5em;
+}
+
 
 
 .announcements {
