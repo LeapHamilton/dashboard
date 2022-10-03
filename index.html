@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
@@ -17,34 +20,37 @@
             <p>Dashboard</p>
             </div>  
             <ul>
-                <li><img class="icons" src="icons/home.svg">Home</li>
-                <li><img class="icons" src="icons/card-account-mail.svg">Profile</li>
-                <li><img class="icons" src="icons/message.svg">Messages</li>
-                <li><img class="icons" src="icons/history.svg">History</li>
-                <li><img class="icons" src="icons/file-multiple.svg">Tasks</li>
-                <li><img class="icons" src="icons/account-group.svg">Community</li>
+                <li class="hovering"><img class="icons" src="icons/home.svg">Home</li>
+                <li class="hovering"><img class="icons" src="icons/card-account-mail.svg">Profile</li>
+                <li class="hovering"><img class="icons" src="icons/message.svg">Messages</li>
+                <li class="hovering"><img class="icons" src="icons/history.svg">History</li>
+                <li class="hovering"><img class="icons" src="icons/file-multiple.svg">Tasks</li>
+                <li class="hovering"><img class="icons" src="icons/account-group.svg">Community</li>
                 
                 
             </ul>
             
             <ul>
 
-                <li><img class="icons" id="top-icon" src="icons/cog.svg">Settings</li>
-                <li><img class="icons" src="icons/help-box.svg">Support</li>
-                <li><img class="icons" src="icons/shield-check-outline.svg">Privacy</li>
+                <li class="hovering"><img class="icons" id="top-icon" src="icons/cog.svg">Settings</li>
+                <li class="hovering"><img class="icons" src="icons/help-box.svg">Support</li>
+                <li class="hovering"><img class="icons" src="icons/shield-check-outline.svg">Privacy</li>
                 </ul>
         </div>
         <div class="header">
-            <img class="magnify" src= "icons/magnify.svg">
+            <img class="hovering" class="magnify" src= "icons/magnify.svg">
             <input type="search" name="searchbar" id="searchbar">
-            <div class="username"><img class="bell" src="icons/bell-ring-outline.svg"><img class="images" src="images/saw 80.jpg">Richard J. Dowling</div> 
-            <img class="images" id="infopic" src="images/saw 80.jpg">
-            <div class="userinfo">Richard J. Dowling (@RJD)</div>
-    
+            <div class="header-right-top">
+                <img class="bell" src="icons/bell-ring-outline.svg">
+                <img class="images" id= "foto" src="images/saw 80.jpg">Richard J. Dowling
+            </div>
+                <img class="images" id="infopic" src="images/saw 80.jpg">
+                <div class="userinfo">Richard J. Dowling (@RJD)</div>
+            
             <div class="btn-group">
-                <button>one</button>
-                <button>two</button>
-                <button>three</button>
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
           </div> 
         </div>
         <div class="main-content">
@@ -152,10 +158,10 @@
                 </div>
             </div>
             <div class="announcements">
-                <p class="section-heading">Announcements</p>
+                <p class="section-header">Announcements</p>
                 <div class="update-card">
                     <div class="updates">
-                    <p class="announcement-title">Site Maintenance</p>
+                    <p class="announcement-title">Another Number One!</p>
                         <p class="announcement-description">
                             Lorem ipsum dolor sit amet. Aut optio harum ad 
                             natus consequatur qui suscipit consequatur qui
@@ -165,22 +171,15 @@
                     <hr>
 
                      <div class="updates">
-                        <p class="announcement-title">Community Share Day</p>
+                        <p class="announcement-title">Platinum Disc!</p>
                         <p class="announcement-description">
                             Lorem ipsum dolor sit amet. Aut optio harum ad 
                             natus consequatur qui suscipit consequatur qui
                              voluptate omnis!
                         </p>
                     </div>
-                    <hr>
-                    <div class="updates">
-                        <p class="announcement-title">Updated Privacy Policy</p>
-                        <p class="announcement-description">
-                            Lorem ipsum dolor sit amet. Aut optio harum ad 
-                            natus consequatur qui suscipit consequatur qui
-                             voluptate omnis!
-                        </p>
-                    </div>
+                
+                    
                 </div>
             </div>           
             <div class="trending">
